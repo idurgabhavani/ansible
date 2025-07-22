@@ -8,6 +8,7 @@
     prompt: please enter passswors
     private: true #user can't see what we entering
   tasks:
+  
   - name: print and check the values
     ansibe.builtin.debug:
       msg: "username is {{USERNAME}} and password {{PASSWORD}}"
