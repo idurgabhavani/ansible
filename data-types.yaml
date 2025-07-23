@@ -16,18 +16,17 @@
   - name: print key value pair
     ansible.builtin.debug:
       msg: "name {{NAME}}"
-      msg: "name {{Skills}}"
       
 
-  #- name: print LIST of values
-    #ansible.builtin.debug:
-      #msg: "name {{Skills}}"
+  - name: print LIST of values
+    ansible.builtin.debug:
+      msg: "name {{Skills}}"
 
-  #- name: print maps
-    #ansible.builtin.debug:
-      #msg: "name {{Experience}}"
+  - name: print maps
+    ansible.builtin.debug:
+      msg: "name {{Experience}}"
 
-  #- name: print BOOLEAN
-    #ansible.builtin.debug:
-      #msg: "name {{Traniner}}"
+  - name: print BOOLEAN
+    ansible.builtin.debug:
+      msg: "name {{Traniner}}"
 
