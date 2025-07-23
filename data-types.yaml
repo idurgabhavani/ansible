@@ -17,8 +17,7 @@
     ansible.builtin.debug:
       msg: "name {{NAME}}"
       msg: "name {{Skills}}"
-      msg: "name {{Experience}}"
-      msg: "name {{Traniner}}"
+      
 
   #- name: print LIST of values
     #ansible.builtin.debug:
